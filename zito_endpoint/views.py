@@ -10,7 +10,7 @@ def zito_api(request):
     utc_time = datetime.now(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     track = request.GET.get('track', '')
     github_file_url = "https://github.com/zitocod3z/backend-track/blob/main/zito_endpoint/views.py",
-    github_repo_url = "https://github.com/zitocod3z/backend-track/",
+    github_repo_url = "https://github.com/zitocod3z/backend-track",
     status_code =  200
     
     response_data = {
