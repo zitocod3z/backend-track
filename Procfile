@@ -1,1 +1,1 @@
-web: gunicorn zit0x0_hng.wsgi 
+web: gunicorn zit0x0_hng.wsgi --log-file -
